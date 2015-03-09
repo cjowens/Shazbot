@@ -1,5 +1,14 @@
 Shazbot Changelog
 
+version 1.0.0 - 09/03/2015
+
+- Fixed double sound bug in WoD
+- Fixed broadcasting to other addon users in WoD
+- Added guild chat option
+- Added sound files from medium and heavy classes
+- Added option in /vgs ui for changing class
+- Added /vgs light/medium/heavy for switching between class voices quickly.
+
 Version 0.5 - 02/28/2014
 
 - Added support for cross-realm authors (removes duplicate sound spam).
