@@ -1,0 +1,15 @@
+## Interface: 50400
+## Title: Shazbot!
+## Notes: Implements the classic VGS system from Tribes
+## Version: 0.5
+## Author: Orbv/Eleswon/Vectus
+## DefaultState: Enabled
+## SavedVariables: shazPlayerVars
+## X-Curse-Packaged-Version: 0.5
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+Shazbot.lua
+ShazDB.lua

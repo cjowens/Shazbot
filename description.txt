@@ -1,0 +1,6 @@
+Project Name: Shazbot
+
+Description: Shazbot is a voice communication tool that was created primarily for entertainment,
+but has benefits in PvP as well. The idea for this add-on came from the Tribes universe. This 
+add-on features sounds from Tribes: Ascend by Hi Rez Studios. Some voice commands were left out
+as they do not pertain to WoW or any of the game modes encompassed within.
