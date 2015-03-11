@@ -1,8 +1,7 @@
-## Interface: 60100
+## Interface: 50400
 ## Title: Shazbot!
-## Notes: Implements the classic VGS system from Tribes - Updated for WoD by Owenz https://github.com/cjowens/Shazbot/
-## Version: 1.0.0
-## Author: Orbv/Eleswon/Vectus - Updated by Owenz
+## Notes: Implements the classic VGS system from Tribes
+## Author: Orbv/Eleswon/Vectus
 ## DefaultState: Enabled
 ## SavedVariables: shazPlayerVars
 ## X-Curse-Packaged-Version: 0.5

@@ -210,9 +210,9 @@ end
 function Shazbot:playSound(soundID, msgFlag)
 	if shazPlayerVars.currentClass == "LIGHT" then 
 		PlaySoundFile("Interface\\addons\\Shazbot\\media\\" .. shazDB.sound.light[soundID] .. ".ogg","MASTER")
-	elseif shazPlayerVars.currentClass == "MEDIUM" then 
+	elseif shazPlayerVars.currentClass == "MEDIUM" then
 		PlaySoundFile("Interface\\addons\\Shazbot\\media\\" .. shazDB.sound.medium[soundID] .. ".ogg","MASTER")
-	elseif shazPlayerVars.currentClass == "HEAVY" then 
+	elseif shazPlayerVars.currentClass == "HEAVY" then
 		PlaySoundFile("Interface\\addons\\Shazbot\\media\\" .. shazDB.sound.heavy[soundID] .. ".ogg","MASTER")
 	end
 	if msgFlag then
@@ -257,7 +257,7 @@ end
 
 function Shazbot:chatHandler(self, msg, author)
 	-- We need to make sure the sound plays only when other player use it
-	-- to avoid multiple plays for one command	
+	-- to avoid multiple plays for one command		
 	if IsPlayer(author) == 0 then
 		-- Find out if player used a VGS command
 		soundID = Shazbot:getMSGID(msg)
@@ -386,7 +386,7 @@ function IsPlayer(author)
 	local player = GetUnitName("player")
 	local realm = GetRealmName():gsub(" ", "-")
 	local fullAuthor = player .. "-" .. realm:gsub("-", "", 1)
-	local fullPlayer = player.."-"..realm
+	local fullPlayer = player .. "-" ..realm
 	
 	if (author == fullAuthor) or (author == player) or (player == fullPlayer) then
 		return 1
